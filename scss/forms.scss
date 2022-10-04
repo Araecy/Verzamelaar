@@ -1,0 +1,26 @@
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+
+@include textfield.core-styles;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+#formContainer {
+    margin: 1em;
+    padding: 0.1em;
+    border: solid black 0.05em;
+}
+#formContainer > form:not(.not) {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: stretch;
+    text-align: right;
+}
+input[pain] {
+    width: 150px;
+}

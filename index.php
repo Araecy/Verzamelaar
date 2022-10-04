@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <a href="./form.php">Create Form!</a>
+  <a href="./form.php">Create your own card!</a>
 </body>
 
 </html>
