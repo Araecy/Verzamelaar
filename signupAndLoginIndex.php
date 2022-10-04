@@ -45,33 +45,29 @@
         
         <!-- Login: -->
         <!-- Button to open the modal login form -->
-        <button onclick="document.getElementById('id02').style.display='block'">Login</button>
+        <button onclick="document.getElementById('id02').style.display='block'" class="loginButton">Login</button>
 
         <!-- The Modal -->
         <div id="id02" class="modal2">
-            <span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span>
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
 
             <!-- Modal Content -->
             <form class="modal-content2 animate" action="/action_page.php">
-                <div class="imgcontainer">
-                    <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                </div>
-
                 <div class="container">
                     <label for="uname"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <input type="text" placeholder="Enter Username" name="uname" class="loginInput" required>
 
                     <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <input type="password" placeholder="Enter Password" name="psw" class="loginInput" required>
 
-                    <button type="submit">Login</button>
+                    <button type="submit" class="loginButton">Login</button>
                     <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                        <input type="checkbox" checked="checked" name="remember" class="loginInput"> Remember me
                     </label>
                 </div>
 
-                <div class="container" style="background-color:#f1f1f1">
-                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2">Cancel</button>
+                <div class="container" style="background-color:#1e1e1e">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2 loginButton">Cancel</button>
                     <span class="psw">Forgot <a href="#">password?</a></span>
                 </div>
             </form>
