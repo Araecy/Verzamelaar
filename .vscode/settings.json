@@ -3,17 +3,17 @@
   "liveSassCompile.settings.formats": [
     // // extended css file!
     // {
-    //   "format": "expanded",
-    //   "extensionName": ".css",
-    //   "savePath": "~/../css"
+    //     "format": "expanded",
+    //     "extensionName": ".css",
+    //     "savePath": "~/../css"
     // },
     //compressed css file!
     {
-      "extensionName": ".min.css",
-      "format": "compressed",
-      "savePath": "~/../css"
+        "extensionName": ".css",
+        "format": "compressed",
+        "savePath": "~/../css"
     }
-  ],
+],
   "liveSassCompile.settings.excludeList": [
     "**/node_modules/**",
     ".vscode/**"
